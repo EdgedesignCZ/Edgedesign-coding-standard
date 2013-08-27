@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Edgedesign">
+    <description>The coding standard of Edgedesign based on Symfony 2 coding standard by opensky@github.</description>
+
+    <rule ref="Symfony2">
+        <exclude name="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned"/>
+        <exclude name="Symfony2.Formatting.BlankLineBeforeReturn"/>
+    </rule>
+</ruleset>
